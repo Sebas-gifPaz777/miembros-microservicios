@@ -21,35 +21,5 @@ public class Contacto {
     private String email;
     private Long telefono;
 
-    public Contacto(Long id, String email, Long telefono) {
-        this.id = id;
-        this.email = email;
-        this.telefono = telefono;
-    }
 
-
-    public Contacto(){}
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public Long getTelefono() {
-        return telefono;
-    }
-
-    public void setTelefono(Long telefono) {
-        this.telefono = telefono;
-    }
 }
